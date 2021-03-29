@@ -1,11 +1,8 @@
 const Button = (props) => {
-    const onButtonClick = () => {
-        console.log("Clicked");
-    }
 
     return (
         <button
-            onClick={onButtonClick}
+            onClick={props.onClick}
             style={{ backgroundColor: props.color }}
             className="btn"
         >

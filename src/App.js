@@ -1,12 +1,9 @@
-import './App.css';
+import Header from './components/Header/Header';
 
 function App() {
-  const name = ''
-
   return (
     <div className="container">
-      <h1>React Interview</h1>
-      <h2>Hello</h2>
+      <Header title="Hello" />
     </div>
   );
 }

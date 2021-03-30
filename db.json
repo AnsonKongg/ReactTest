@@ -16,7 +16,7 @@
       "id": 3,
       "text": "Test",
       "day": "May",
-      "reminder": true
+      "reminder": false
     }
   ]
 }
